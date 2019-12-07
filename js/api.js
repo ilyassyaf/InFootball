@@ -1,6 +1,6 @@
 const API_KEY = "579781cba85c44d8a468c7ea8d4f10b4";
 const LEAGUE_ID = 2021;
-var base_url = "https://api.football-data.org/v2/";
+const base_url = "https://api.football-data.org/v2/";
 var teams_url = `${base_url}competitions/${LEAGUE_ID}/teams`;
 var standing_url = `${base_url}competitions/${LEAGUE_ID}/standings`;
 var teamData;
